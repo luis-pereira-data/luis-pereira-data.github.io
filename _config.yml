@@ -28,8 +28,8 @@ resume_section_education:       true
 resume_section_projects:        false
 resume_section_skills:          true
 resume_section_recognition:     false
-resume_section_links:           true
-resume_section_associations:    true
+resume_section_links:           false
+resume_section_associations:    false
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
@@ -38,9 +38,9 @@ resume_social_links:
   resume_twitter_url:           "http://twitter.com/luiscper"
   resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/luiscper"
+  resume_linkedin_url:          "https://www.linkedin.com/in/luis-pereira-data"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://luispereira.com"
+  resume_website_url:           "http://luispereira.me"
 
 # Design settings
 resume_theme:                   default
