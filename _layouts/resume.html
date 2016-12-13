@@ -4,7 +4,10 @@
   {% include head.html %}
 
   <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
-
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6GSWTQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <div class="wrapper" itemscope itemtype="http://schema.org/Person">
 
       <header class="page-header">
@@ -244,23 +247,7 @@
       </footer>
 
     </div>
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Person",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "London",
-        "addressRegion": "London"
-      },
-      "email": "mailto:luiscper@gmail.com",
-      "image": "janedoe.jpg",
-      "jobTitle": "Data, Analytics",
-      "name": "Luis Pereira",
-      "telephone": "+44 7472945411",
-      "url": "http://www.luispereira.me"
-    }
-  </script>
+    {% include footer.html %}
   </body>
 
 </html>
